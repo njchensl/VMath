@@ -1,5 +1,6 @@
 package me.nanjingchj.vmath
 
+@Suppress("MemberVisibilityCanBePrivate")
 data class Point(val x: Double, val y: Double, val z: Double) {
 
     constructor(x: Double, y: Double) : this(x, y, 0.0)
